@@ -1,0 +1,7 @@
+# Tell GitHub Linguist to ignore generated/vendor files
+package-lock.json linguist-generated=true
+frontend/package-lock.json linguist-generated=true
+*.lock linguist-generated=true
+
+# Ensure Solidity is detected
+*.sol linguist-language=Solidity linguist-detectable=true
